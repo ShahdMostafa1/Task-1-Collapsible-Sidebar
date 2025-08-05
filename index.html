@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+  <div class="container">
+    <div id="sidebar" class="sidebar">
+        <div class="logo-container">
+            <div id="logoPlaceholder" class="logo-placeholder">
+              <div class="logo-image-container">
+                <span class="logo-text">LOGO</span>
+              </div>
+              <div class="logo-actions">
+                <button class="logo-btn" id="editLogo" title="Upload logo">🖊️</button>
+                <button class="logo-btn" id="deleteLogo" title="Remove logo">🗑️</button>
+              </div>
+            </div>
+            <input type="file" id="logoUpload" accept="image/*" style="display: none;">
+          </div>
+          <ul class="nav-links">
+            <li class="sidebar-link"><i class="fa-solid fa-house"></i> <span>Home</span></li>
+            <li class="sidebar-link"><i class="fa-solid fa-user"></i> <span>Profile</span></li>
+            <li class="sidebar-link"><i class="fa-solid fa-envelope"></i> <span>Messages</span></li>
+            <li class="sidebar-link"><i class="fa-solid fa-gear"></i> <span>Settings</span></li>
+          </ul>                   
+    </div>
+
+    <div id="mainContent" class="main-content">
+        <button id="toggleBtn"><span id="toggleIcon">&#9776;</span></button>
+        
+        <h1 class="main-heading">Welcome to Collapsible Sidebar</h1>
+        <div class="project-description">
+            <p>🛠️ <strong>Technologies Used:</strong> HTML, CSS, JavaScript, Font Awesome</p>
+            <p> </p>
+            <p><strong>Covered Topics:</strong> HTML | CSS | JavaScript | Component Layout | Animation | Toggle Logic</p>
+            <p><strong>Responsive Design:</strong> Mobile & Desktop</p>
+            <p><strong>What I Built:</strong></p>
+            <p>
+              I created a fully functional collapsible sidebar with a clean layout and smooth open/close animations.
+            </p>
+            <p><strong>Here's what the sidebar includes:</strong></p>
+            <ul>
+              <li>✅ Logo image.</li>
+              <li>✅ Toggle button in the top navbar to open/close the sidebar.</li>
+              <li>✅ List of interactive navigation links, each with relevant icons.</li>
+              <li>✅ Responsive overlay that dims the background when the sidebar is open.</li>
+              <li>✅ Full mobile responsiveness for an optimized experience across all devices.</li>
+              <li>✅ Polished animations for a seamless user experience.</li>
+            </ul>
+          </div>
+          
+          <p class="main-paragraph bottom-center">
+            I am thrilled to share that I have successfully completed Task 1 as a Front-End Web Development Intern at Elevvo Pathways!
+          </p>
+         </div>
+      
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
