@@ -1,6 +1,6 @@
 # Collapsible Sidebar Project
 
-![Preview](preview.png)
+![Preview](collapsible sidebar video.mp4)
 
 A responsive collapsible sidebar with logo upload functionality.
 
